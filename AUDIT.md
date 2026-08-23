@@ -3,7 +3,9 @@
 **Revision:** working tree @ 2026-08-23 (the `misonetwork` workspace is not a
 git repository — `git rev-parse` fails; no commit hash exists). Dependency pin:
 `miso` (protocol) @ `ecb3da52c14912e257f00b30185c598e92ffc5e3`; the audited
-`miso::release` source is the on-disk `../protocol` working tree.
+`miso::release` source is the on-disk `../protocol` working tree. Pin bumped
+2026-08-23: `miso` @ `c23fe7f…` (carrying the `miso_share` treasury-cap
+hardening `d67ff8c`).
 **Date:** 2026-08-23 · **Toolchain:** sui 1.77.2-51d177ad7d65
 
 Audit of `per_track` (89 LOC, `sources/per_track.move`), the
